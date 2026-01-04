@@ -4,6 +4,11 @@ function loadContent(section, event) {
   document.querySelectorAll('.sidebar li').forEach(li => li.classList.remove('active'));
   event.target.classList.add('active');
 
+  .big-gap {
+    margin-top: 50px;
+  }
+
+  
   const data = {
     about: `
       <h1>Про гру</h1>
@@ -36,7 +41,7 @@ function loadContent(section, event) {
         <li>Радіус дії: 256px</li>
       </ul>
 
-      <h2 style="margin-top: 50px;">Air1</h2>
+      <h2 class="big-gap">Air1</h2>
       <ul>
         <li>Швидкість: 300px/c.</li>
         <li>Швидкість повороту: 15px/с.</li>
