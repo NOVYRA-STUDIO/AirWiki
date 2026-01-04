@@ -1,5 +1,9 @@
-function loadContent(section) {
+function loadContent(section, event) {
   const content = document.getElementById("content");
+
+  // Активний пункт меню
+  document.querySelectorAll('.sidebar li').forEach(li => li.classList.remove('active'));
+  event.target.classList.add('active');
 
   const data = {
     about: `
