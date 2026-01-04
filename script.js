@@ -12,9 +12,12 @@ function loadContent(section) {
     `,
     weapons: `
       <h1>Фракції</h1>
-      <ul>
         <li>Армія оборони</li>
+      <ul>
+      <h1>Фракції</h1>
         <li>Повстанці</li>
+      <ul>
+      <h1>Фракції</h1>
         <li>Найманці</li>
       </ul>
     `,
