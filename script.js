@@ -7,8 +7,19 @@ function loadContent(section, event) {
   const data = {
     about: `
       <h1>Про гру</h1>
+        <a href="https://example.com" target="_blank">Завантажити</a>
+
+
+      <iframe frameborder="0" 
+          src="https://itch.io/embed/4164169?border_width=3&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b00000&amp;border_color=8a8a8a" 
+          width="556" 
+          height="171">
+        <a href="https://novyra-studio.itch.io/air-defense-ops">Air Defense Ops by NOVYRA STUDIO™</a>
+      </iframe>   
     `,
 
+
+    
     ppo: `
       <h1>Види ППО:</h1>
       
@@ -25,6 +36,8 @@ function loadContent(section, event) {
       <p>Усі характеристики є вигаданими та не є реальними.</p>
     `,
 
+
+    
     weapons: `
       <h1>Види зброї:</h1>
 
@@ -49,19 +62,27 @@ function loadContent(section, event) {
       <p>Усі характеристики є вигаданими та не є реальними.</p>
     `,
 
+
+    
     transport: `
       <h1>Види техніки:</h1>
     `,
-    
+
+
+
     buildings: `
       <h1>Види будівель:</h1>
     `,
 
+
+    
     map: `
       <h1>Карта</h1>
     `
   };
 
+
+  
   content.innerHTML = data[section] || `
     <h1>Розділ порожній</h1>
     <p><em>Тут зʼявиться контент пізніше.</em></p>
