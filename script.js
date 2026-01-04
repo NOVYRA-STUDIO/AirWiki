@@ -19,6 +19,12 @@ function loadContent(section, event) {
     weapons: `
       <h1>Види зброї:</h1>
 
+      <h2>Shahed-136</h2>
+      <ul>
+        <li><em>Швидкість: 10-15px/c.</em></li>
+        <li><em>Тут буде дальність, швидкість, роль</em></li>
+      </ul>
+
       <h2>Х-101</h2>
       <ul>
         <li><em>Швидкість: 150-200px/c.</em></li>
