@@ -21,7 +21,7 @@ function loadContent(section, event) {
 
       <h2>Х-101</h2>
       <ul>
-        <li><em>Тут буде опис ракети</em></li>
+        <li><em>Швидкість: 1000</em></li>
         <li><em>Тут буде дальність, швидкість, роль</em></li>
       </ul>
 
