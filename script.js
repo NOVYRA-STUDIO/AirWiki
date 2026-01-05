@@ -65,6 +65,7 @@ function loadContent(section, event) {
       </ul>
 
       <h2>Air1B</h2>
+      <img src="img/Air1B.png" class="weapon-img">
       <ul>
         <li>Швидкість: 300px/c.</li>
         <li>Швидкість повороту: 15px/с.</li>
