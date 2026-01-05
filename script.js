@@ -7,6 +7,9 @@ function loadContent(section, event) {
   const data = {
     about: `
       <h1>Про гру</h1>
+      <ul>
+        <li>Актуальна версія: 1.20</li>
+      </ul>
       <iframe frameborder="0" 
           src="https://itch.io/embed/4164169?border_width=3&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b00000&amp;border_color=8a8a8a" 
           width="556" 
