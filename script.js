@@ -45,7 +45,7 @@ function loadContent(section, event) {
 
     
     weaponsppo: `
-      <h1>Види ракет ППО:</h1>
+      <h1>Види боєприпасів ППО:</h1>
       
       <h2>Air1</h2>
       <ul>
