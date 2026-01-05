@@ -56,7 +56,7 @@ function loadContent(section, event) {
       </ul>
       
       <h2>Air1A</h2>
-      <img src="img/Air1A.png" class="weapon-img">
+      <img src="img/Air1A.png" alt="Air1A ракета" class="icon">
       <ul>
         <li>Швидкість: 200px/c.</li>
         <li>Швидкість повороту: 14px/с.</li>
@@ -65,7 +65,7 @@ function loadContent(section, event) {
       </ul>
 
       <h2>Air1B</h2>
-      <img src="img/Air1B.png" class="weapon-img">
+      <img src="img/Air1B.png" alt="Air1B ракета" class="icon">
       <ul>
         <li>Швидкість: 300px/c.</li>
         <li>Швидкість повороту: 15px/с.</li>
