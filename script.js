@@ -21,10 +21,12 @@ function loadContent(section, event) {
       <div class="ppo-block">
         <h2>Додано/змінено:</h2>
         <ul>
+        
           <li>Установка NASAMS за стандартом стрілятиме ракетами Air 1A.</li>
           <li>Перероблено ракету Х-101.</li>
           <li>Виправлено зум камери.</li>
           <li>Додано обмеження пересування камери.</li>
+          
         </ul>
       </div>
       
@@ -41,20 +43,25 @@ function loadContent(section, event) {
       <div class="ppo-block">
         <h2>Мобільна Вогнева Група (МВГ)</h2>
         <ul>
+        
           <li>Мобільний підрозділ протиповітряної оборони.</li>
           <li>Тип боєприпасу: кулі.</li>
           <li>Скорострільність: 1 куля/0.5с.</li>
           <li>Радіус дії: 96px.</li>
+          
         </ul>
       
       </div>
       <div class="ppo-block">
         <h2>NASAMS</h2>
         <ul>
+        
           <li>Зенітний ракетний комплекс.</li>
-          <li>Тип боєприпасу: ракета Air 1A.</li>
+          <li>Стандартний тип боєприпасу: ракета Air 1A.</li>
           <li>Скорострільність: 1 ракета/2с.</li>
           <li>Радіус дії: 256px.</li>
+          <li>Підтримує боєприпаси: Air 1A, Air 1B.</li>
+          
         </ul>
       </div>
       
@@ -66,20 +73,24 @@ function loadContent(section, event) {
       <div class="ppo-block">
         <h2>Куля</h2>
         <ul>
+        
           <li>Швидкість: 150px/c.</li>
           <li>Швидкість повороту: 0px/с.</li>
           <li>Тип керування: немає.</li>
           <li>Дальність польоту: 225px.</li>
+          
         </ul>
       
       </div>
       <div class="ppo-block">
         <h2>Air 1A</h2>
         <ul>
+        
           <li>Швидкість: 200px/c.</li>
           <li>Швидкість повороту: 14px/с.</li>
           <li>Тип керування: самонаведення.</li>
-          <li>Дальність польоту: 200px. При знаходженні цілі дальність збільшується ще на 200px.</li>
+          <li>Дальність польоту: 400px.</li>
+          
         </ul>
         <img src="img/weaponsppo/Air1A.png" alt="Air1A ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
@@ -88,10 +99,12 @@ function loadContent(section, event) {
       <div class="ppo-block">
         <h2>Air 1B</h2>
         <ul>
+        
           <li>Швидкість: 300px/c.</li>
           <li>Швидкість повороту: 15px/с.</li>
           <li>Тип керування: самонаведення.</li>
-          <li>Дальність польоту: 300px. При знаходженні цілі дальність збільшується ще на 300px.</li>
+          <li>Дальність польоту: 300px.</li>
+          
         </ul>
         <img src="img/weaponsppo/Air1B.png" alt="Air1B ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
@@ -107,10 +120,12 @@ function loadContent(section, event) {
         <img src="img/weapons/shaheed136.png" alt="Shahed-136" class="img-small">
         <img src="img/weapons/shaheed136_n.png" alt="Shahed-136" class="img-small">
         <ul>
+        
           <li>Швидкість: 10-15px/c.</li>
           <li>Швидкість повороту: 3px/с.</li>
           <li>Може маневрувати.</li>
           <li>Є біла й чорна версія.</li>
+          
         </ul>
       </div>
       
@@ -118,9 +133,12 @@ function loadContent(section, event) {
         <h2>Х-101</h2>
         <img src="img/weapons/x101.png" alt="Х-101" class="img-small">
         <ul>
+        
           <li>Швидкість: 150-200px/c.</li>
           <li>Швидкість повороту: 2px/с.</li>
           <li>Може маневрувати.</li>
+          <li>Деякі Х-101 можуть відстрілювати теплові пастки</li>
+           
         </ul>
       </div>
       
@@ -128,9 +146,11 @@ function loadContent(section, event) {
         <h2>Х-47М2 «Кинджал»</h2>
         <img src="img/weapons/Х47М2.png" alt="Х-47М2 «Кинджал»" class="img-small">
         <ul>
+        
           <li>Початкова швидкість: 1000px/c. На відстані 500px до цілі швидкість знижується до 200px/c.</li>
           <li>Швидкість повороту: 0px/с.</li>
           <li>Не може маневрувати.</li>
+          
         </ul>
       </div>
       
