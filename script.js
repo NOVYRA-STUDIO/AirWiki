@@ -8,7 +8,7 @@ function loadContent(section, event) {
     about: `
       <h1>Про гру</h1>
       
-      <h2>Актуальна версія: 1.21</h2>
+      <h2>Актуальна версія: 1.21 (06.01.2026)</h2>
       <h2>Додано/змінено:</h2>
       <div class="ppo-block">
         <ul>
