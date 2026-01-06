@@ -46,7 +46,7 @@ function loadContent(section, event) {
         <h2>NASAMS</h2>
         <ul>
           <li>Зенітний ракетний комплекс.</li>
-          <li>Тип боєприпасу: ракета Air1.</li>
+          <li>Тип боєприпасу: ракета Air 1A.</li>
           <li>Скорострільність: 1 ракета/2с.</li>
           <li>Радіус дії: 256px.</li>
         </ul>
@@ -71,7 +71,7 @@ function loadContent(section, event) {
       </div>
 
       <div class="ppo-block">
-        <h2>Air1A</h2>
+        <h2>Air 1A</h2>
         <ul>
           <li>Швидкість: 200px/c.</li>
           <li>Швидкість повороту: 14px/с.</li>
@@ -85,7 +85,7 @@ function loadContent(section, event) {
       </div>
 
       <div class="ppo-block"> 
-        <h2>Air1B</h2>
+        <h2>Air 1B</h2>
         <ul>
           <li>Швидкість: 300px/c.</li>
           <li>Швидкість повороту: 15px/с.</li>
