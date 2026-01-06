@@ -20,6 +20,7 @@ function loadContent(section, event) {
   const data = {
     about: `
       <h1>Про гру</h1>
+      
       <h2>Актуальна версія: 1.21 (06.01.2026)</h2>
       <div class="ppo-block">
         <h2>Додано/змінено:</h2>
@@ -30,6 +31,7 @@ function loadContent(section, event) {
           <li>Додано обмеження пересування камери.</li>
         </ul>
       </div>
+      
       <iframe frameborder="0" 
         src="https://itch.io/embed/4164169?border_width=3&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b00000&amp;border_color=8a8a8a" 
         width="556" 
@@ -39,6 +41,7 @@ function loadContent(section, event) {
     `,
     ppo: `
       <h1>Види ППО:</h1>
+      
       <div class="ppo-block">
         <h2>Мобільна Вогнева Група (МВГ)</h2>
         <ul>
@@ -47,6 +50,7 @@ function loadContent(section, event) {
           <li>Скорострільність: 1 куля/0.5с.</li>
           <li>Радіус дії: 96px.</li>
         </ul>
+      
       </div>
       <div class="ppo-block">
         <h2>NASAMS</h2>
@@ -57,10 +61,12 @@ function loadContent(section, event) {
           <li>Радіус дії: 256px.</li>
         </ul>
       </div>
+      
       <p>Усі характеристики є вигаданими та не є реальними.</p>
     `,
     weaponsppo: `
       <h1>Види боєприпасів ППО:</h1>
+      
       <div class="ppo-block">
         <h2>Куля</h2>
         <ul>
@@ -69,6 +75,7 @@ function loadContent(section, event) {
           <li>Тип керування: немає.</li>
           <li>Дальність польоту: 225px.</li>
         </ul>
+      
       </div>
       <div class="ppo-block">
         <h2>Air 1A</h2>
@@ -81,6 +88,7 @@ function loadContent(section, event) {
         <img src="img/Air1A.png" alt="Air1A ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
       </div>
+      
       <div class="ppo-block">
         <h2>Air 1B</h2>
         <ul>
@@ -92,10 +100,12 @@ function loadContent(section, event) {
         <img src="img/Air1B.png" alt="Air1B ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
       </div>
+      
       <p>Усі характеристики є вигаданими та не є реальними.</p>
     `,
     weapons: `
       <h1>Види зброї:</h1>
+      
       <div class="ppo-block">
         <h2>Shahed-136</h2>
         <img src="img/weapons/shaheed136.png" alt="Shahed-136" class="img-small">
@@ -103,8 +113,10 @@ function loadContent(section, event) {
           <li>Швидкість: 10-15px/c.</li>
           <li>Швидкість повороту: 3px/с.</li>
           <li>Може маневрувати.</li>
+          <li>Є біла й чорна версії.</li>
         </ul>
       </div>
+      
       <div class="ppo-block">
         <h2>Х-101</h2>
         <img src="img/weapons/x101.png" alt="Х-101" class="img-small">
@@ -114,6 +126,7 @@ function loadContent(section, event) {
           <li>Може маневрувати.</li>
         </ul>
       </div>
+      
       <div class="ppo-block">
         <h2>Х-47М2 «Кинджал»</h2>
         <img src="img/weapons/Х47М2.png" alt="Х-47М2 «Кинджал»" class="img-small">
@@ -123,6 +136,7 @@ function loadContent(section, event) {
           <li>Не може маневрувати.</li>
         </ul>
       </div>
+      
       <p>Усі характеристики є вигаданими та не є реальними.</p>
     `,
     transport: `<h1>Види техніки:</h1>`,
