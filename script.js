@@ -1,17 +1,13 @@
-// --- Зміна теми ---
 const themeButton = document.getElementById('toggle-theme');
 themeButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
-  // Запам’ятати вибір
   localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
 });
 
-// Завантажити тему при старті
 if(localStorage.getItem('theme') === 'dark') {
   document.body.classList.add('dark-theme');
 }
 
-// --- Загрузка контенту ---
 function loadContent(section, event) {
   const content = document.getElementById("content");
   document.querySelectorAll('.sidebar li').forEach(li => li.classList.remove('active'));
@@ -85,7 +81,7 @@ function loadContent(section, event) {
           <li>Тип керування: самонаведення.</li>
           <li>Дальність польоту: 200px. При знаходженні цілі дальність збільшується ще на 200px.</li>
         </ul>
-        <img src="img/Air1A.png" alt="Air1A ракета" class="img-medium">
+        <img src="img/weaponsppo/Air1A.png" alt="Air1A ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
       </div>
       
@@ -97,7 +93,7 @@ function loadContent(section, event) {
           <li>Тип керування: самонаведення.</li>
           <li>Дальність польоту: 300px. При знаходженні цілі дальність збільшується ще на 300px.</li>
         </ul>
-        <img src="img/Air1B.png" alt="Air1B ракета" class="img-medium">
+        <img src="img/weaponsppo/Air1B.png" alt="Air1B ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
       </div>
       
