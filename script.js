@@ -190,7 +190,20 @@ function loadContent(section, event) {
     `,
     transport: `<h1>Види техніки:</h1>`,
     buildings: `<h1>Види будівель:</h1>`,
-    map: `<h1>Карта</h1>`
+    map: `
+    <h1>Гра</h1>
+    
+    <div class="ppo-block">
+        <h2>Інше:</h2>
+        <ul>
+        
+          <li></li>
+          
+        </ul>
+      </div>
+    
+    <p>Усі характеристики є вигаданими та не є реальними.</p>
+    `
   };
 
   content.innerHTML = data[section] || `
