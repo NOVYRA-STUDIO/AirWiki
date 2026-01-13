@@ -197,7 +197,8 @@ function loadContent(section, event) {
       <h2>Інше:</h2>
       <ul>
         
-        <li></li>
+        <li>Одиниці вимірювання відстані: px.</li>
+        <li>Одиниці вимірювання швидкості: px/с.</li>
           
       </ul>
     </div>
