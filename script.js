@@ -119,6 +119,8 @@ function loadContent(section, event) {
           <li>Тип керування: немає.</li>
           <li>Дальність польоту: 225px.</li>
           <li>Не може маневрувати.</li>
+          <li>Тип: -</li>
+          <li>Клас: -</li>
           
         </ul>
       
@@ -132,6 +134,8 @@ function loadContent(section, event) {
           <li>Тип керування: самонаведення.</li>
           <li>Дальність польоту: 400px.</li>
           <li>Може маневрувати.</li>
+          <li>Тип: Спеціальні ракети</li>
+          <li>Клас: земля-повітря</li>
           
         </ul>
         <img src="img/weaponsppo/Air1A.png" alt="Air1A ракета" class="img-medium">
@@ -147,6 +151,8 @@ function loadContent(section, event) {
           <li>Тип керування: самонаведення.</li>
           <li>Дальність польоту: 300px.</li>
           <li>Може маневрувати.</li>
+          <li>Тип: Спеціальні ракети</li>
+          <li>Клас: земля-повітря</li>
           
         </ul>
         <img src="img/weaponsppo/Air1B.png" alt="Air1B ракета" class="img-medium">
@@ -168,6 +174,8 @@ function loadContent(section, event) {
           <li>Швидкість повороту: 3px/с.</li>
           <li>Може маневрувати.</li>
           <li>Є біла й чорна версія.</li>
+          <li>Тип: БПЛА</li>
+          <li>Клас: земля-земля</li>
           
         </ul>
       </div>
@@ -180,6 +188,8 @@ function loadContent(section, event) {
           <li>Швидкість: 40-50px/c.</li>
           <li>Швидкість повороту: 3px/с.</li>
           <li>Може маневрувати.</li>
+          <li>Тип: Реактивний БПЛА</li>
+          <li>Клас: земля-земля</li>
           
         </ul>
       </div>
@@ -193,6 +203,8 @@ function loadContent(section, event) {
           <li>Швидкість повороту: 2px/с.</li>
           <li>Може маневрувати.</li>
           <li>Деякі Х-101 можуть відстрілювати теплові пастки</li>
+          <li>Тип: Kрилата ракета</li>
+          <li>Клас: повітря-земля</li>
            
         </ul>
       </div>
@@ -205,6 +217,8 @@ function loadContent(section, event) {
           <li>Початкова швидкість: 1000px/c. На відстані 500px до цілі швидкість знижується до 200px/c.</li>
           <li>Швидкість повороту: 0px/с.</li>
           <li>Не може маневрувати.</li>
+          <li>Тип: Аеробалістична ракета</li>
+          <li>Клас: повітря-земля</li>
           
         </ul>
       </div>
