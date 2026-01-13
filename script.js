@@ -16,6 +16,13 @@ function loadContent(section, event) {
   const data = {
     about: `
       <h1>Про гру</h1>
+
+      <iframe frameborder="0" 
+        src="https://itch.io/embed/4164169?border_width=3&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b00000&amp;border_color=8a8a8a" 
+        width="556" 
+        height="171">
+        <a href="https://novyra-studio.itch.io/air-defense-ops">Air Defense Ops by NOVYRA STUDIO™</a>
+      </iframe>   
       
       <h2>Актуальна версія: 0.23 (13.01.2026)</h2>
       <div class="ppo-block">
@@ -49,13 +56,6 @@ function loadContent(section, event) {
           
         </ul>
       </div>
-      
-      <iframe frameborder="0" 
-        src="https://itch.io/embed/4164169?border_width=3&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b00000&amp;border_color=8a8a8a" 
-        width="556" 
-        height="171">
-        <a href="https://novyra-studio.itch.io/air-defense-ops">Air Defense Ops by NOVYRA STUDIO™</a>
-      </iframe>   
     `,
     ppo: `
       <h1>Види ППО:</h1>
