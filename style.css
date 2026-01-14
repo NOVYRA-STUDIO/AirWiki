@@ -81,13 +81,13 @@ body {
 
 
 
-.ppo-block {
+.yellow-block {
   position: relative;
   padding-left: 16px;
   margin-bottom: 24px;
 }
 
-.ppo-block::before {
+.yellow-block::before {
   content: "";
   position: absolute;
   left: 0;
