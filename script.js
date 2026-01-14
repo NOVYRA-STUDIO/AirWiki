@@ -57,7 +57,7 @@ function loadContent(section, event) {
         </ul>
         
         <div class="red-block">
-        <h2>Додано/змінено:</h2>
+        <h2>Виправлено:</h2>
         </div>
 
       </div>
