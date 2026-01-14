@@ -55,6 +55,11 @@ function loadContent(section, event) {
           <li>Зроблено новий дезайн налаштувань.</li>
           
         </ul>
+        
+        <div class="red-block">
+        <h2>Додано/змінено:</h2>
+        </div>
+
       </div>
 
             <div class="ppo-block">
