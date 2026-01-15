@@ -90,6 +90,21 @@ function loadContent(section, event) {
           <li>Радіус дії: 64px.</li>
           
         </ul>
+
+      <div class="yellow-block">
+        <h2>Буковель-AD</h2>
+        <ul>
+        
+          <li>Комплекс радіоелектронної боротьби.</li>
+          <li>Стандартний тип боєприпасу: -</li>
+          <li>Всього боєприпасів: -</li>
+          <li>Скорострільність: -</li>
+          <li>Час перезарядки: -</li>
+          <li>Радіус дії: 24px.</li>
+          <li>Підтримує боєприпаси: -</li>
+          
+        </ul>
+      </div>
       
       </div>
       <div class="yellow-block">
