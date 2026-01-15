@@ -80,7 +80,6 @@ function loadContent(section, event) {
       <div class="yellow-block">
         <h2>Мобільна Вогнева Група (МВГ)</h2>
         <ul>
-        
           <li>Мобільний підрозділ протиповітряної оборони.</li>
           <li>Стандартний тип боєприпасу: кулі.</li>
           <li>Всього боєприпасів: 30.</li>
@@ -88,13 +87,12 @@ function loadContent(section, event) {
           <li>Час перезарядки: 1с.</li>
           <li>Підтримує боєприпаси: кулі.</li>
           <li>Радіус дії: 64px.</li>
-          
         </ul>
+      </div>
 
       <div class="yellow-block">
         <h2>Буковель-AD</h2>
         <ul>
-        
           <li>Комплекс радіоелектронної боротьби.</li>
           <li>Стандартний тип боєприпасу: -</li>
           <li>Всього боєприпасів: -</li>
@@ -102,15 +100,12 @@ function loadContent(section, event) {
           <li>Час перезарядки: -</li>
           <li>Радіус дії: 24px.</li>
           <li>Підтримує боєприпаси: -</li>
-          
         </ul>
       </div>
       
-      </div>
       <div class="yellow-block">
         <h2>NASAMS</h2>
         <ul>
-        
           <li>Зенітний ракетний комплекс.</li>
           <li>Стандартний тип боєприпасу: ракета Air 1A.</li>
           <li>Всього боєприпасів: 6.</li>
@@ -118,14 +113,12 @@ function loadContent(section, event) {
           <li>Час перезарядки: 4с.</li>
           <li>Радіус дії: 232px.</li>
           <li>Підтримує боєприпаси: Air 1A, Air 1B.</li>
-          
         </ul>
       </div>
 
       <div class="yellow-block">
         <h2>MIM-104 Patriot</h2>
         <ul>
-        
           <li>Зенітний ракетний комплекс.</li>
           <li>Стандартний тип боєприпасу: ракета Air 1A.</li>
           <li>Всього боєприпасів: 4.</li>
@@ -133,7 +126,6 @@ function loadContent(section, event) {
           <li>Час перезарядки: 5с.</li>
           <li>Радіус дії: 256px.</li>
           <li>Підтримує боєприпаси: Air 1A, Air 1B.</li>
-          
         </ul>
       </div>
       
@@ -145,7 +137,6 @@ function loadContent(section, event) {
       <div class="yellow-block">
         <h2>Куля</h2>
         <ul>
-        
           <li>Швидкість: 150px/c.</li>
           <li>Швидкість повороту: 0px/с.</li>
           <li>Тип керування: немає.</li>
@@ -153,14 +144,12 @@ function loadContent(section, event) {
           <li>Не може маневрувати.</li>
           <li>Тип: -</li>
           <li>Клас: -</li>
-          
         </ul>
-      
       </div>
+      
       <div class="yellow-block">
         <h2>Air 1A</h2>
         <ul>
-        
           <li>Швидкість: 200px/c.</li>
           <li>Швидкість повороту: 14px/с.</li>
           <li>Тип керування: самонаведення.</li>
@@ -168,7 +157,6 @@ function loadContent(section, event) {
           <li>Може маневрувати.</li>
           <li>Тип: Спеціальні ракети</li>
           <li>Клас: земля-повітря</li>
-          
         </ul>
         <img src="img/weaponsppo/Air1A.png" alt="Air1A ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
@@ -177,7 +165,6 @@ function loadContent(section, event) {
       <div class="yellow-block">
         <h2>Air 1B</h2>
         <ul>
-        
           <li>Швидкість: 300px/c.</li>
           <li>Швидкість повороту: 15px/с.</li>
           <li>Тип керування: самонаведення.</li>
@@ -185,7 +172,6 @@ function loadContent(section, event) {
           <li>Може маневрувати.</li>
           <li>Тип: Спеціальні ракети</li>
           <li>Клас: земля-повітря</li>
-          
         </ul>
         <img src="img/weaponsppo/Air1B.png" alt="Air1B ракета" class="img-medium">
         <figure><figcaption>Зона захоплення цілі.</figcaption></figure>
@@ -201,14 +187,12 @@ function loadContent(section, event) {
         <img src="img/weapons/shaheed136.png" alt="Shahed-136" class="img-small">
         <img src="img/weapons/shaheed136_n.png" alt="Shahed-136" class="img-small">
         <ul>
-        
           <li>Швидкість: 10-15px/c.</li>
           <li>Швидкість повороту: 3px/с.</li>
           <li>Може маневрувати.</li>
           <li>Є біла й чорна версія.</li>
           <li>Тип: БПЛА</li>
           <li>Клас: земля-земля</li>
-          
         </ul>
       </div>
 
@@ -216,13 +200,11 @@ function loadContent(section, event) {
         <h2>Shahed-238</h2>
         <img src="img/weapons/shaheed136_n_r.png" alt="Shahed-238" class="img-small">
         <ul>
-        
           <li>Швидкість: 40-50px/c.</li>
           <li>Швидкість повороту: 3px/с.</li>
           <li>Може маневрувати.</li>
           <li>Тип: Реактивний БПЛА</li>
           <li>Клас: земля-земля</li>
-          
         </ul>
       </div>
       
@@ -230,14 +212,12 @@ function loadContent(section, event) {
         <h2>Х-101</h2>
         <img src="img/weapons/x101.png" alt="Х-101" class="img-small">
         <ul>
-        
           <li>Швидкість: 150-200px/c.</li>
           <li>Швидкість повороту: 2px/с.</li>
           <li>Може маневрувати.</li>
           <li>Деякі Х-101 можуть відстрілювати теплові пастки</li>
           <li>Тип: Kрилата ракета</li>
           <li>Клас: повітря-земля</li>
-           
         </ul>
       </div>
       
@@ -245,13 +225,11 @@ function loadContent(section, event) {
         <h2>Х-47М2 «Кинджал»</h2>
         <img src="img/weapons/Х47М2.png" alt="Х-47М2 «Кинджал»" class="img-small">
         <ul>
-        
           <li>Початкова швидкість: 1000px/c. На відстані 500px до цілі швидкість знижується до 200px/c.</li>
           <li>Швидкість повороту: 0px/с.</li>
           <li>Не може маневрувати.</li>
           <li>Тип: Аеробалістична ракета</li>
           <li>Клас: повітря-земля</li>
-          
         </ul>
       </div>
       
@@ -265,10 +243,8 @@ function loadContent(section, event) {
     <div class="yellow-block">
       <h2>Інше:</h2>
       <ul>
-        
         <li>Одиниці вимірювання відстані: px.</li>
         <li>Одиниці вимірювання швидкості: px/с.</li>
-          
       </ul>
     </div>
 
