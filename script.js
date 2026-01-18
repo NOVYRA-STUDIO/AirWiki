@@ -145,6 +145,10 @@ if (localStorage.getItem('theme') === 'dark') {
       </div>
       
       <p>Усі характеристики є вигаданими та не є реальними.</p>
+
+      <footer>
+        © 2026 NOVARA STUDIO™
+      </footer>
     `,
     weaponsppo: `
       <h1>Види боєприпасів ППО:</h1>
@@ -305,8 +309,8 @@ if (localStorage.getItem('theme') === 'dark') {
     <p>Усі характеристики є вигаданими та не є реальними.</p>
 
     <footer>
-        © 2026 NOVARA STUDIO™
-      </footer>
+      © 2026 NOVARA STUDIO™
+    </footer>
     `
   };
 
