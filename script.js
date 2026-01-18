@@ -193,6 +193,10 @@ if (localStorage.getItem('theme') === 'dark') {
       </div>
       
       <p>Усі характеристики є вигаданими та не є реальними.</p>
+
+      <footer>
+        © 2026 NOVARA STUDIO™
+      </footer>
     `,
     weapons: `
       <h1>Види зброї:</h1>
@@ -249,6 +253,10 @@ if (localStorage.getItem('theme') === 'dark') {
       </div>
       
       <p>Усі характеристики є вигаданими та не є реальними.</p>
+
+      <footer>
+        © 2026 NOVARA STUDIO™
+      </footer>
     `,
     transport: `<h1>Види техніки:</h1>`,
     buildings: `<h1>Види будівель:</h1>`,
@@ -295,6 +303,10 @@ if (localStorage.getItem('theme') === 'dark') {
     </div>
     
     <p>Усі характеристики є вигаданими та не є реальними.</p>
+
+    <footer>
+        © 2026 NOVARA STUDIO™
+      </footer>
     `
   };
 
