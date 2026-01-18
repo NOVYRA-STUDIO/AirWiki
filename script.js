@@ -10,8 +10,21 @@ if(localStorage.getItem('theme') === 'dark') {
 
 function loadContent(section, event) {
   const content = document.getElementById("content");
-  document.querySelectorAll('.sidebar li').forEach(li => li.classList.remove('active'));
+
+  document.querySelectorAll('.sidebar li')
+    .forEach(li => li.classList.remove('active'));
   event.target.classList.add('active');
+
+  content.classList.add('fade-out');
+
+  setTimeout(() => {
+    content.innerHTML = data[section] || `
+      <h1>Розділ порожній</h1>
+      <p><em>Тут зʼявиться контент пізніше.</em></p>
+    `;
+    content.classList.remove('fade-out');
+  }, 200);
+}
 
   const data = {
     about: `
