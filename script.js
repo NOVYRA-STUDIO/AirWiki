@@ -1,29 +1,15 @@
 const themeButton = document.getElementById('toggle-theme');
+
 themeButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
-  localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+  localStorage.setItem(
+    'theme',
+    document.body.classList.contains('dark-theme') ? 'dark' : 'light'
+  );
 });
 
-if(localStorage.getItem('theme') === 'dark') {
+if (localStorage.getItem('theme') === 'dark') {
   document.body.classList.add('dark-theme');
-}
-
-function loadContent(section, event) {
-  const content = document.getElementById("content");
-
-  document.querySelectorAll('.sidebar li')
-    .forEach(li => li.classList.remove('active'));
-  event.target.classList.add('active');
-
-  content.classList.add('fade-out');
-
-  setTimeout(() => {
-    content.innerHTML = data[section] || `
-      <h1>Розділ порожній</h1>
-      <p><em>Тут зʼявиться контент пізніше.</em></p>
-    `;
-    content.classList.remove('fade-out');
-  }, 200);
 }
 
   const data = {
@@ -309,8 +295,22 @@ function loadContent(section, event) {
     `
   };
 
-  content.innerHTML = data[section] || `
-    <h1>Розділ порожній</h1>
-    <p><em>Тут зʼявиться контент пізніше.</em></p>
-  `;
+function loadContent(section, event) {
+  const content = document.getElementById('content');
+
+  document
+    .querySelectorAll('.sidebar li')
+    .forEach(li => li.classList.remove('active'));
+
+  if (event) event.target.classList.add('active');
+
+  content.classList.add('fade-out');
+
+  setTimeout(() => {
+    content.innerHTML = data[section] || `
+      <h1>Розділ порожній</h1>
+      <p><em>Тут зʼявиться контент пізніше.</em></p>
+    `;
+    content.classList.remove('fade-out');
+  }, 200);
 }
