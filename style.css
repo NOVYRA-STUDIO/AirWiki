@@ -15,6 +15,14 @@ body {
   color: white;
 }
 
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+}
+
+
 .sidebar {
   width: 250px;
   background: #20232a;
