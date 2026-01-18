@@ -72,9 +72,9 @@ if (localStorage.getItem('theme') === 'dark') {
  
         </ul>
       </div>
-     <footer>
+    <footer>
       © 2026 NOVARA STUDIO™
-     </footer>
+    </footer>
     `,
     ppo: `
       <h1>Види ППО:</h1>
