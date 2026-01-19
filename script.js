@@ -270,8 +270,9 @@ if (localStorage.getItem('theme') === 'dark') {
     <div class="yellow-block">
       <h2>Інше:</h2>
       <ul>
-        <li>Одиниці вимірювання відстані: px.</li>
+        <li>Одиниці вимірювання відстані: Од.</li>
         <li>Одиниці вимірювання швидкості: px/с.</li>
+        <li>1 Од. = 8 px.</li>
       </ul>
     </div>
 
