@@ -352,6 +352,10 @@ if (localStorage.getItem('theme') === 'dark') {
     `
   };
 
+
+
+
+
 function loadContent(section, event) {
   const content = document.getElementById('content');
 
