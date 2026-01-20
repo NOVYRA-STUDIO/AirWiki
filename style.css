@@ -105,8 +105,8 @@ footer {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100px;   /* довжина риски */
+  left: 50;
+  width: 250px;   /* довжина риски */
   height: 4px;
   background: #ffd400;
   border-radius: 2px;
