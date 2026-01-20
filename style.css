@@ -91,6 +91,28 @@ footer {
 
 
 
+
+
+
+
+.yellow2-block {
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 24px;
+}
+
+.yellow2-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;   /* довжина риски */
+  height: 4px;
+  background: #ffd400;
+  border-radius: 2px;
+}
+
+
 .yellow-block {
   position: relative;
   padding-left: 16px;
