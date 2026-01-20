@@ -83,7 +83,7 @@ if (localStorage.getItem('theme') === 'dark') {
 
 
 
-   
+    Water-transport: `<h1>-</h1>`,
 
 
 
@@ -162,6 +162,12 @@ if (localStorage.getItem('theme') === 'dark') {
         © 2026 NOVARA STUDIO™
       </footer>
     `,
+
+
+
+
+
+    Air-transport: `<h1>-</h1>`,
 
 
 
@@ -289,7 +295,7 @@ if (localStorage.getItem('theme') === 'dark') {
 
 
 
-    Buildings: `<h1>Види будівель:</h1>`,
+    Buildings: `<h1>-</h1>`,
 
 
 
