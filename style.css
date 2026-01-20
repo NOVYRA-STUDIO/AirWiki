@@ -97,15 +97,15 @@ footer {
 
 .yellow2-block {
   position: relative;
-  padding-top: 20px;
-  margin-bottom: 24px;
+  padding-top: 15px;
+  margin-bottom: 15px;
 }
 
 .yellow2-block::before {
   content: "";
   position: absolute;
-  top: 10;
-  left: 50;
+  top: 0;
+  left: 0;
   width: 350px;   /* довжина риски */
   height: 4px;
   background: #ffd400;
